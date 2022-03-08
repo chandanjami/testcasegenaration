@@ -29,6 +29,14 @@ public class ReadScriptGenerate {
 					ArrayList<StepObject> objStepObjectList = new ArrayList<StepObject>();
 					StepObject objStepObject;
 					Integer stepNum = 1;
+					
+					String fn = request.getParameter("fn");
+						if (fn.endsWith(".db"))
+						{
+						File f = new File(fn);
+						//read the contents of “f” file
+						…
+						}
 					while ((line = br.readLine()) != null) {
 						// sb.append(line); // appends line to string buffer
 						line = line.trim();
