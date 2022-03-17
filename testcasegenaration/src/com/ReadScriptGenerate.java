@@ -12,6 +12,9 @@ public class ReadScriptGenerate {
 		// TODO Auto-generated method stub
 		String inputFoler = "C:\\TestcaseUtility\\input";
 		String outputFolder = "C:\\TestcaseUtility\\output\\";
+		String s = null;
+		String y = new String();
+		
 		System.out.println("============================================================================");
 		try {
 			File folder = new File(inputFoler);
