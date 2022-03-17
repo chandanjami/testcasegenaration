@@ -14,7 +14,7 @@ public class ReadScriptGenerate {
 		String outputFolder = "C:\\TestcaseUtility\\output\\";
 		String s = null;
 		String y = new String();
-		
+		s.compareTo(y);
 		System.out.println("============================================================================");
 		try {
 			File folder = new File(inputFoler);
